@@ -11,6 +11,47 @@
   --color-black: #000;
   --color-black1: #1c1c1e;
 }
+.language-dropdown {
+  position: absolute;
+  top: 20px; 
+  right: 55px; 
+}
+
+.dropbtn {
+  background-color: #f1f1f1;
+  color: black;
+  padding: 8px 12px;
+  border: none;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #ffffff;
+  box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+  right: 0;
+}
+
+.dropdown-content a {
+  color: black;
+  text-decoration: none;
+  display: block;
+  padding: 8px 12px;
+}
+
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
+
+.language-dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.language-dropdown:hover .dropbtn {
+  background-color: #ddd;
 
 body {
   height: 100vh;
